@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "id": "1161526278",
+      "name": "Multimodal-Rag-system-V2",
+      "createdAt": "2026-02-19T07:57:24Z",
+      "url": "https://github.com/Aathi-27/Multimodal-Rag-system-V2",
+      "description": "Offline retrieval across text, images and audio using FastAPI, Qdrant, hybrid search and reranking, designed for consumer hardware.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1119977591",
+      "name": "multimodal-document-tampering-detection",
+      "createdAt": "2025-12-20T08:16:46Z",
+      "url": "https://github.com/Aathi-27/multimodal-document-tampering-detection",
+      "description": "Document tampering risk analysis combining computer vision, OCR-based checks and uncertainty estimation with API and dashboard interfaces.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    },
+    {
+      "id": "1322597007",
+      "name": "telecom-kpi-anomaly-detection",
+      "createdAt": "2026-08-04T06:29:04Z",
+      "url": "https://github.com/Aathi-27/telecom-kpi-anomaly-detection",
+      "description": "Telecom time-series monitoring using Z-score, EWMA and Isolation Forest detectors, with CLI, FastAPI, Streamlit and automated tests.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
+    }
+  ]
+}

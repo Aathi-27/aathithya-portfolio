@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Agustina Regular"),
+    url("./assets/fonts/Agustina.woff") format("woff");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Bold";
+  src: local("Google Sans Bold"),
+    url("./assets/fonts/GoogleSans-Bold.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Bold Italic";
+  src: local("Google Sans Bold Italic"),
+    url("./assets/fonts/GoogleSans-BoldItalic.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Italic";
+  src: local("Google Sans Italic"),
+    url("./assets/fonts/GoogleSans-Italic.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Medium";
+  src: local("Google Sans Medium"),
+    url("./assets/fonts/GoogleSans-Medium.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Medium Italic";
+  src: local("Google Sans Medium Italic"),
+    url("./assets/fonts/GoogleSans-MediumItalic.ttf") format("woff");
+}
+@font-face {
+  font-family: "Google Sans Regular";
+  src: local("Google Sans Regular"),
+    url("./assets/fonts/GoogleSans-Regular.ttf") format("woff");
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Media Query */
+@media (max-width: 1380px) {
+  html,
+  body {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
+:root {
+  --scrollbar-color: white; /* it will change when the page loads*/
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-color) transparent;
+}
+/* Personalisation and small-screen readability */
+*{box-sizing:border-box}img,svg{max-width:100%} .greeting-text{overflow-wrap:normal!important;word-break:normal!important} .greeting-nickname{font-size:24px!important} a:focus-visible,button:focus-visible{outline:3px solid #0E6BA8;outline-offset:4px} .repo-name{overflow-wrap:anywhere} @media(max-width:480px){.header .logo{font-size:1.35em!important}.greeting-text{font-size:36px!important;line-height:1.25!important}.greeting-nickname{font-size:20px!important}.greeting-text-p{font-size:18px!important;line-height:1.7!important}.repo-cards-div-main{display:block!important}.repo-card-div{width:100%!important;margin-bottom:20px}.footer-text{padding:0 18px;line-height:1.7}.header .menu a{min-height:44px}} @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;transition-duration:0.01ms!important}}
+
+.contact-heading-img-div img{max-width:280px;width:80%;aspect-ratio:1;object-fit:cover;border-radius:50%;box-shadow:0 12px 35px #001c551f} .body-header-title{overflow-wrap:anywhere} .experience-card{overflow-wrap:anywhere}
+.skills-main-div>*{min-width:0}.skills-text-div{min-width:0}.skills-text{white-space:normal;overflow-wrap:break-word;line-height:1.6}.software-skills-main-div{max-width:100%} .header .menu-btn:checked~.menu{max-height:600px}.header li a{padding-top:16px;padding-bottom:16px}
+.repo-description{display:block!important;-webkit-line-clamp:unset!important;overflow:visible!important;height:auto!important;min-height:0!important;white-space:normal!important}.repo-card-div{min-height:240px;height:auto!important}.skills-text-div .subTitle{color:#5b6c88!important}
+@media(max-width:480px){.experience-heading-div>*{min-width:0;max-width:100%}.experience-header-detail-text{margin-left:0!important;width:100%;overflow-wrap:break-word}.experience-heading-sub-text{overflow-wrap:break-word}.experience-card{max-width:100%}}
